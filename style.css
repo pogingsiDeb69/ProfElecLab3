@@ -104,3 +104,7 @@ form textarea{
 img{
     max-width: 250px;
 }
+ .required::after {
+        content: ' *';
+        color: red;
+      }
