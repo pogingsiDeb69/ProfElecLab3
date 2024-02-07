@@ -95,19 +95,18 @@
 
                 <form action="#second-section" method="POST" class="form-element" name="form" enctype="multipart/form-data">
                     <div>
-                        <label for="gender" >Enter your <strong>Gender</strong>: </label>
-                        <span class="mandatory">*</span>
+                        <label for="gender" class="required" >Enter your <strong>Gender</strong>: </label>
                         <input type="radio" name="gender" id="F" value="F" required>Female
                         <input type="radio" name="gender" id="M"  value="M">Male
                     </div>
                     <div>
-                        <label for="lastname">Enter your <strong>Lastname</strong>:</label>
-                        <span class="mandatory">*</span>
+                        <label for="lastname" class="required">Enter your <strong>Lastname</strong>:</label>
+                        
                         <input type="text" id="lastname" name="lastname" required>
                     </div>
                     <div>
-                    <label for="firstname">Enter your <strong>First name</strong>:</label>
-                    <span class="mandatory">*</span>
+                    <label for="firstname" class="required">Enter your <strong>First name</strong>:</label>
+                    
                         <input type="text" id="firstname" name="firstname" required>
                     </div>
                     <div>
@@ -121,19 +120,19 @@
                        <input type="file" name="photo" id="photo">
                     </div>
                     <div>
-                    <label for="mail">Enter your <strong>Email address</strong>:</label>
-                    <span class="mandatory">*</span>
+                    <label for="mail" class="required">Enter your <strong>Email address</strong>:</label>
+                    
                        <input type="email" name="mail" id="mail" required>
                     </div>
                     <div>
-                    <label for="pwrd">Enter your <strong>Password</strong>:</label>
-                    <span class="mandatory">*</span>
+                    <label for="pwrd" class="required">Enter your <strong>Password</strong>:</label>
+                    
                        <input type="password" name="pwrd" id="pwrd" required>
                     </div>
                     <div>
-                    <label for="re-pwrd"><strong>Confirm</strong> your Password:</label>
-                    <span class="mandatory">*</span>
-                       <input type="password" name="re-pwrd" id="re=pwrd" required>
+                    <label for="re-pwrd" class="required"><strong>Confirm</strong> your Password:</label>
+                
+                       <input type="password" name="re-pwrd" id="re=pwrd" >
                     </div>
                     <div>
                    <span class="mandatory">* mandatory fields</span>
@@ -142,7 +141,7 @@
                         <label></label>
                         <label></label>
                         <label>
-                            <input type="checkbox" name="tos" id="check" value="ok">Accept TOS
+                            <input type="checkbox" name="tos" id="check" value="ok" required>Accept TOS
                         </label>
                     </div>
                     <div class="align-right">
