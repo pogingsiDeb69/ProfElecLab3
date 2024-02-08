@@ -186,8 +186,8 @@
 
                 <form action="#third-section" method="POST" class="form-element" name="form">
                 <div>
-                        <label for="dep" >Department you wish to contact: </label>
-                        <span class="mandatory">*</span>
+                        <label for="dep" class="required">Department you wish to contact: </label>
+                        
                         <select name="department" id="dep" name="dep">
                             <option value="" default>Select....</option>
                             <option value="sales">Sales Department</option>
@@ -196,19 +196,19 @@
                         </select>
                     </div>
                     <div>
-                        <label for="title">Enter a <strong>Title</strong>:</label>
-                        <span class="mandatory">*</span>
+                        <label for="title" class="required">Enter a <strong>Title</strong>:</label>
+                    
                         <input type="text" name="title" id="title" minlength=20 placeholder="More than 20 characters">
                     </div>
 
                     <div>
-                    <label for="question">Enter your <strong>Question</strong>:</label>
-                    <span class="mandatory">*</span>
+                    <label for="question" class="required">Enter your <strong>Question</strong>:</label>
+                   
                        <textarea name="question" id="question" cols="30" rows="10" maxlength="1000" placeholder="Maximum 1000 characters..."></textarea>
                     </div>
                     <div>
-                        <label for="eadd">Enter your <strong>Email address</strong>:</label>
-                        <span class="mandatory">*</span>
+                        <label for="eadd" class="required">Enter your <strong>Email address</strong>:</label>
+                       
                         <input type="email" name="eadd" id="eadd" placeholder="Your email.">
                     </div>
                     <div class="align-right">
